@@ -1212,9 +1212,11 @@ img {
 /* loadmore button  */
 .load-button {
   display: flex;
-  float: right;
-  margin-right: 110px;
-  margin-top: 20px;
+  justify-content: center;
+}
+
+.movie-list {
+  flex: 1;
 }
 
 .load-btn {
@@ -1792,7 +1794,7 @@ img {
   border-bottom: 1px solid rgba(230, 230, 230, 0.615);
 }
 
-.mobile-nav-items.nav-link.active {
+.mobile-nav-items .nav-link.active {
   color: #301952;
 }
 
@@ -1856,7 +1858,6 @@ img {
   position: sticky;
   top: 20px;
   width: 20%;
-  min-width: 150px;
   height: fit-content;
 }
 
@@ -1907,6 +1908,9 @@ img {
   }
   .random-movie-grid-image img {
     height: auto;
+  }
+  .filter {
+    min-width: 180px;
   }
 }
 
@@ -2017,5 +2021,6 @@ img {
     overflow: hidden;
     overflow-y: auto;
     padding-bottom: 20px;
+    min-width: 150px;
   }
 }
