@@ -1610,9 +1610,18 @@ img {
 
 .owl-controls .owl-prev {
   left: -40px;
+  position: absolute;
+  height: 42px;
+  transform: translateY(-50%);
+  top: 50%;
 }
 .owl-controls .owl-next {
   right: -40px;
+  position: relative;
+  position: absolute;
+  transform: translateY(-50%);
+  height: 42px;
+  top: 50%;
 }
 
 .info-container {
@@ -1798,7 +1807,7 @@ img {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100svh;
   z-index: 1000;
   backdrop-filter: blur(2px);
   background: rgba(0, 0, 0, 0.4);
@@ -1963,5 +1972,8 @@ img {
   }
   .single-movie-detail-row {
     flex-direction: column;
+  }
+  .movie-grid {
+    margin: 0 50px;
   }
 }
