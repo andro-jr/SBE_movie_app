@@ -1888,6 +1888,16 @@ img {
   margin-bottom: 60px;
 }
 
+.contact-body .footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.contact-body .section {
+  margin-bottom: 60px !important;
+}
+
 @media screen and (max-width: 1200px) {
   .vision-img-box {
     flex-basis: 35%;
@@ -1918,6 +1928,9 @@ img {
   }
   .filter {
     min-width: 180px;
+  }
+  .contact-body .footer {
+    position: static;
   }
 }
 
