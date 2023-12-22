@@ -1495,7 +1495,7 @@ img {
   display: flex;
   justify-content: flex-end;
   padding-right: 20px;
-  margin: 30px 0;
+  margin-bottom: 30px;
 }
 
 .view-all-btn a {
@@ -1881,6 +1881,13 @@ img {
   height: auto;
 }
 
+.section {
+  margin: 60px 0;
+}
+.main-head {
+  margin-bottom: 60px;
+}
+
 @media screen and (max-width: 1200px) {
   .vision-img-box {
     flex-basis: 35%;
@@ -1892,7 +1899,7 @@ img {
 
 @media screen and (max-width: 992px) {
   .contact-box {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .address_info {
     width: 100%;
@@ -1945,6 +1952,7 @@ img {
   }
   .slider-with-btn-container .view-all-btn {
     justify-content: center;
+    margin-top: 40px;
   }
   .info-container {
     padding: 30px;
@@ -1985,6 +1993,16 @@ img {
   }
   .single-movie-detail-row {
     flex-direction: column;
+  }
+  .single-movie-detail-poster {
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: 200px;
+    min-width: 0;
+  }
+
+  .poster-download img {
+    width: 30px;
   }
   .movie-grid {
     margin: 0 50px;
